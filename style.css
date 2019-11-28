@@ -46,8 +46,6 @@ header {
 .header-top {
     width: 100%;
     height: 70px;
-    /*padding-left: calc((375/1920)*100%);
-    padding-right: calc((375/1920)*100%);*/
     background-color: #ebf0f5;
 }
 
@@ -293,6 +291,8 @@ main {
     position: absolute;
     margin-top: 78px;
     margin-left: -10px;
+    border: none;
+    background-color: #f7f7f7;
 }
 
     .slider-arrow-left {
@@ -305,6 +305,8 @@ main {
     position: absolute;
     margin-top: 78px;
     margin-left: 1150px;
+    border: none;
+    background-color: #f7f7f7;
 }
 
     .slider-arrow-right {
