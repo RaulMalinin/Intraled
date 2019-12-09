@@ -106,32 +106,327 @@
                         <ul class="slider-list">
                             <li class="slider-list__item">
                                 <div class="slider-icon slider-icon1"></div>
-                                <a class="slider-link slider-link1">ТРЕКОВЫЕ СВЕТИЛЬНИКИ</a>
+                                <a class="slider-link slider-link1"  href="#" onmouseover="showSubcatalog1()" onmouseout="hiddenSubcatalog1()">ТРЕКОВЫЕ СВЕТИЛЬНИКИ</a>
+                                <div class="triangle" onmouseover="showSubcatalog1()" onmouseout="hiddenSubcatalog1()"></div>
                             </li>
                             <li class="slider-list__item">
                                 <div class="slider-icon slider-icon2"></div>
-                                <a class="slider-link slider-link2">СВЕТОДИОДНЫЕ ЛЕНТЫ</a>
+                                <a class="slider-link slider-link2" href="#">СВЕТОДИОДНЫЕ ЛЕНТЫ</a>
+                                <div class="triangle"></div>
                             </li>
                             <li class="slider-list__item">
                                 <div class="slider-icon slider-icon3"></div>
-                                <a class="slider-link slider-link3">ИСТОЧНИКИ ПИТАНИЯ</a>
+                                <a class="slider-link slider-link3" href="#">ИСТОЧНИКИ ПИТАНИЯ</a>
+                                <div class="triangle"></div>
                             </li>
                             <li class="slider-list__item">
                                 <div class="slider-icon slider-icon4"></div>
-                                <a class="slider-link slider-link4">УПРАВЛЕНИЕ ОСВЕЩЕНИЕМ</a>
+                                <a class="slider-link slider-link4" href="#">УПРАВЛЕНИЕ ОСВЕЩЕНИЕМ</a>
+                                <div class="triangle"></div>
                             </li>
                             <li class="slider-list__item">
                                 <div class="slider-icon slider-icon5"></div>
-                                <a class="slider-link slider-link5">АЛЮМИНИЕВЫЙ ПРОФИЛЬ</a>
+                                <a class="slider-link slider-link5" href="#">АЛЮМИНИЕВЫЙ ПРОФИЛЬ</a>
+                                <div class="triangle"></div>
                             </li>
                             <li class="slider-list__item">
                                 <div class="slider-icon slider-icon6"></div>
-                                <a class="slider-link slider-link6">СВЕТОДИОДНЫЕ ПРОЖЕКТОРЫ</a>
+                                <a class="slider-link slider-link6" href="#">СВЕТОДИОДНЫЕ ПРОЖЕКТОРЫ</a>
+                                <div class="triangle"></div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </section> <!--wholesale-->
+            
+            <div class="subcatalog1__wrap" onmouseover="showSubcatalog1()" onmouseout="hiddenSubcatalog1()"> <!--чтобы блок не изчезал когда уводится курсор с ссылки в блоке wholesale-->
+                <ul class="subcatalog1__list">
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon1"></div>
+                        <a class="subcatalog1-link subcatalog1-link1" href="#">СВЕТИЛЬНИКИ 2TRA</a>
+                        <div class="item-bottom-triangle"></div>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon2"></div>
+                        <a class="subcatalog1-link subcatalog1-link2" href="#" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">КОМПЛЕКТУЮЩИЕ 2TRA</a>
+                        <div class="item-bottom-triangle" onmouseover="showDetails3()" onmouseout="hiddenDetails3()"></div>
+                    </li>
+                    <li class="subcatalog1__list-item" >
+                        <div class="subcatalog1-icon subcatalog1-icon3"></div>
+                    <a class="subcatalog1-link subcatalog1-link3" href="#" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">СВЕТИЛЬНИКИ 4TRA</a>
+                        <div class="item-bottom-triangle" onmouseover="showDetails3()" onmouseout="hiddenDetails3()"></div>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon4"></div>
+                        <a class="subcatalog1-link subcatalog1-link4" href="#">КОМПЛЕКТУЮЩИЕ 4TRA</a>
+                        <div class="item-bottom-triangle"></div>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon5"></div>
+                        <a class="subcatalog1-link subcatalog1-link5" href="#">СВЕТИЛЬНИКИ ЕВРО 3L</a>
+                        <div class="item-bottom-triangle"></div>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon6"></div>
+                        <a class="subcatalog1-link subcatalog1-link6" href="#">ДИММИРУЕМЫЕ СВЕТИЛЬНИКИ</a>
+                        <div class="item-bottom-triangle"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="details__wrap details-1__wrap" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">
+                <div class="details">
+                    <div class="catalog-block">
+                        <a class="sertifiсate-link" href="#">
+                            <img class="sertifiсate-link__img" src="./img/sertificat-ABS.png">
+                        </a>
+                        <div class="details-list__wrap">
+                            <h4 class="details-list__title">КАТАЛОГИ ABB</h4>
+                            <ul class="details-list">
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Basic 55</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Busch-Jaeger 2015-206</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Niessen 2016</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-catalog">
+                            <a class="price-link" href="#">Скачать прайс-лист</a>
+                            <a class="catalog-link" href="#">Все каталоги</a>
+                        </div>
+                    </div>
+                    <form class="form-question">
+                        <div class="question__title">Задать вопрос менеджеру</div>
+                        <input type="text" class="question__name question__input" placeholder="Имя">
+                        <input type="email" class="question__email question__input" placeholder="E-mail">
+                        <input type="tel" class="question__tel question__input" placeholder="Телефон">
+                        <input type="text" class="question__question question__input" placeholder="Ваш вопрос">
+                        <button type="submit" class="question__btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+            <!--details__wrap details-1__wrap-->
+            
+            <div class="details__wrap details-2__wrap" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">
+                <div class="details">
+                    <div class="catalog-block">
+                        <a class="sertifiсate-link" href="#">
+                            <img class="sertifiсate-link__img" src="./img/sertificat-ABS.png">
+                        </a>
+                        <div class="details-list__wrap">
+                            <h4 class="details-list__title">КАТАЛОГИ ABB</h4>
+                            <ul class="details-list">
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Basic 55</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Busch-Jaeger 2015-206</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Niessen 2016</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-catalog">
+                            <a class="price-link" href="#">Скачать прайс-лист</a>
+                            <a class="catalog-link" href="#">Все каталоги</a>
+                        </div>
+                    </div>
+                    <form class="form-question">
+                        <div class="question__title">Задать вопрос менеджеру</div>
+                        <input type="text" class="question__name question__input" placeholder="Имя">
+                        <input type="email" class="question__email question__input" placeholder="E-mail">
+                        <input type="tel" class="question__tel question__input" placeholder="Телефон">
+                        <input type="text" class="question__question question__input" placeholder="Ваш вопрос">
+                        <button type="submit" class="question__btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+            <!--details__wrap details-2__wrap-->
+            
+            <div class="details__wrap details-3__wrap" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">
+                <div class="details">
+                    <div class="catalog-block">
+                        <a class="sertifiсate-link" href="#">
+                            <img class="sertifiсate-link__img" src="./img/sertificat-ABS.png">
+                        </a>
+                        <div class="details-list__wrap">
+                            <h4 class="details-list__title">КАТАЛОГИ ABB</h4>
+                            <ul class="details-list">
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Basic 55</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Busch-Jaeger 2015-206</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Niessen 2016</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-catalog">
+                            <a class="price-link" href="#">Скачать прайс-лист</a>
+                            <a class="catalog-link" href="#">Все каталоги</a>
+                        </div>
+                    </div>
+                    <form class="form-question">
+                        <div class="question__title">Задать вопрос менеджеру</div>
+                        <input type="text" class="question__name question__input" placeholder="Имя">
+                        <input type="email" class="question__email question__input" placeholder="E-mail">
+                        <input type="tel" class="question__tel question__input" placeholder="Телефон">
+                        <input type="text" class="question__question question__input" placeholder="Ваш вопрос">
+                        <button type="submit" class="question__btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+            <!--details__wrap details-3__wrap-->
+            
+            <div class="details__wrap details-4__wrap" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">
+                <div class="details">
+                    <div class="catalog-block">
+                        <a class="sertifiсate-link" href="#">
+                            <img class="sertifiсate-link__img" src="./img/sertificat-ABS.png">
+                        </a>
+                        <div class="details-list__wrap">
+                            <h4 class="details-list__title">КАТАЛОГИ ABB</h4>
+                            <ul class="details-list">
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Basic 55</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Busch-Jaeger 2015-206</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Niessen 2016</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-catalog">
+                            <a class="price-link" href="#">Скачать прайс-лист</a>
+                            <a class="catalog-link" href="#">Все каталоги</a>
+                        </div>
+                    </div>
+                    <form class="form-question">
+                        <div class="question__title">Задать вопрос менеджеру</div>
+                        <input type="text" class="question__name question__input" placeholder="Имя">
+                        <input type="email" class="question__email question__input" placeholder="E-mail">
+                        <input type="tel" class="question__tel question__input" placeholder="Телефон">
+                        <input type="text" class="question__question question__input" placeholder="Ваш вопрос">
+                        <button type="submit" class="question__btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+            <!--details__wrap details-4__wrap-->
+            
+            <div class="details__wrap details-5__wrap" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">
+                <div class="details">
+                    <div class="catalog-block">
+                        <a class="sertifiсate-link" href="#">
+                            <img class="sertifiсate-link__img" src="./img/sertificat-ABS.png">
+                        </a>
+                        <div class="details-list__wrap">
+                            <h4 class="details-list__title">КАТАЛОГИ ABB</h4>
+                            <ul class="details-list">
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Basic 55</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Busch-Jaeger 2015-206</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Niessen 2016</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-catalog">
+                            <a class="price-link" href="#">Скачать прайс-лист</a>
+                            <a class="catalog-link" href="#">Все каталоги</a>
+                        </div>
+                    </div>
+                    <form class="form-question">
+                        <div class="question__title">Задать вопрос менеджеру</div>
+                        <input type="text" class="question__name question__input" placeholder="Имя">
+                        <input type="email" class="question__email question__input" placeholder="E-mail">
+                        <input type="tel" class="question__tel question__input" placeholder="Телефон">
+                        <input type="text" class="question__question question__input" placeholder="Ваш вопрос">
+                        <button type="submit" class="question__btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+            <!--details__wrap details-5__wrap-->
+            
+            <div class="details__wrap details-6__wrap" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">
+                <div class="details">
+                    <div class="catalog-block">
+                        <a class="sertifiсate-link" href="#">
+                            <img class="sertifiсate-link__img" src="./img/sertificat-ABS.png">
+                        </a>
+                        <div class="details-list__wrap">
+                            <h4 class="details-list__title">КАТАЛОГИ ABB</h4>
+                            <ul class="details-list">
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Basic 55</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Busch-Jaeger 2015-206</a>
+                                </li>
+                                <li class="details-list__item">
+                                    <a class="details-list__link" href="#">Каталог ABB Niessen 2016</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="price-catalog">
+                            <a class="price-link" href="#">Скачать прайс-лист</a>
+                            <a class="catalog-link" href="#">Все каталоги</a>
+                        </div>
+                    </div>
+                    <form class="form-question">
+                        <div class="question__title">Задать вопрос менеджеру</div>
+                        <input type="text" class="question__name question__input" placeholder="Имя">
+                        <input type="email" class="question__email question__input" placeholder="E-mail">
+                        <input type="tel" class="question__tel question__input" placeholder="Телефон">
+                        <input type="text" class="question__question question__input" placeholder="Ваш вопрос">
+                        <button type="submit" class="question__btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+            <!--details__wrap details-6__wrap-->
+                    
+                
+            
+            <div class="subcatalog1__wrap subcatalog-double" onmouseover="showDetails3()" onmouseout="hiddenDetails3()">
+                <ul class="subcatalog1__list">
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon1"></div>
+                        <a class="subcatalog1-link subcatalog1-link1" href="#">СВЕТИЛЬНИКИ 2TRA</a>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon2"></div>
+                        <a class="subcatalog1-link subcatalog1-link2" href="#">КОМПЛЕКТУЮЩИЕ 2TRA</a>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon3"></div>
+                        <a class="subcatalog1-link subcatalog1-link3" href="#">СВЕТИЛЬНИКИ 4TRA</a>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon4"></div>
+                        <a class="subcatalog1-link subcatalog1-link4" href="#">КОМПЛЕКТУЮЩИЕ 4TRA</a>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon5"></div>
+                        <a class="subcatalog1-link subcatalog1-link5" href="#">СВЕТИЛЬНИКИ ЕВРО 3L</a>
+                    </li>
+                    <li class="subcatalog1__list-item">
+                        <div class="subcatalog1-icon subcatalog1-icon6"></div>
+                        <a class="subcatalog1-link subcatalog1-link6" href="#">ДИММИРУЕМЫЕ СВЕТИЛЬНИКИ</a>
+                    </li>
+                </ul>
+            </div>
+    
             <section class="special">
                 <h2 class="special-title main-title">СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</h2>
                 <ul class="special__offer-list">
@@ -358,5 +653,6 @@
             </div>
         </div>
 
+        <script src="script.js"></script>
     </body>
 </html>

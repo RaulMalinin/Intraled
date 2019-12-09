@@ -87,7 +87,7 @@
     protect: false,
 
     // Shortcut to make content "modal" - disable keyboard navigtion, hide buttons, etc
-    /* modal: false, */
+      modal: false, 
 
     image: {
       // Wait for images to load before displaying
