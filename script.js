@@ -1,4 +1,4 @@
- function showSubcatalog1() {
+ /*function showSubcatalog1() {
     document.querySelector('.subcatalog1__wrap').style.display = 'block';
 };
 
@@ -7,10 +7,8 @@ function hiddenSubcatalog1() {
 };
 
 let sliderLink = document.querySelectorAll('.slider-link');
-//let sliderLinkItems = Array.from(sliderLink);
 
 let triangleSlider = document.querySelectorAll('.triangle');
-//let triangleSliderItems = Array.from(triangleSlider);
 
 for (let i = 0; i < sliderLink.length; i = i + 1) {
   sliderLink[i].addEventListener('mouseover', function (){
@@ -50,7 +48,28 @@ for (let i = 0; i < subcatalog1Link.length; i = i + 1) {
     detailsWrap[i].addEventListener('mouseout', function (){
       triangle[i].style.display = 'block';
   }); 
-};
+}; */
+
+let subcatalog1Link = document.querySelectorAll('.subcatalog1-link');
+
+let triangle = document.querySelectorAll('.item-bottom-triangle');
+
+let detailsWrap = document.querySelectorAll('.details__wrap');
+
+for (let i = 0; i < subcatalog1Link.length; i = i + 1) {
+    subcatalog1Link[i].addEventListener('mouseover', function (){
+      triangle[i].style.display = 'block';
+      detailsWrap[i].style.display = 'block';
+  });
+    subcatalog1Link[i].addEventListener('mouseout', function (){
+      triangle[i].style.display = 'none';
+      detailsWrap[i].style.display = 'none';
+  }); 
+    /*detailsWrap[i].addEventListener('mouseout', function (){
+      triangle[i].style.display = 'block';
+  }); */
+}
+
 
 
 

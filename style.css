@@ -455,7 +455,7 @@ main {
 
 /* sub-catalog1 hidden */
 .subcatalog1__wrap {
-    display: none;
+    /*display: none;*/
     width: 100%;
     height: 262px;
     background-color: #ebf0f5;
@@ -550,15 +550,21 @@ main {
 
 /* details hidden */
 .details__wrap {
-    display: none;
+    /*display: none;*/
     width: 100%;
     height: 264px;
     background-color: #f7f7f7;
     position: relative;
 }
 
+.details-1__wrap, .details-2__wrap, .details-3__wrap,
+.details-4__wrap, .details-5__wrap, .details-6__wrap {
+    display: none;
+}
+
         .details-2__wrap {
             background-color: red;
+            z-index: 100;
         }
 
 .details {
@@ -721,7 +727,10 @@ main {
     box-shadow: 2px 4px 2px 0px #000000;
 }
 
-
+.subcatalog-double-1, .subcatalog-double-2, .subcatalog-double-3,
+.subcatalog-double-4, .subcatalog-double-5, .subcatalog-double-6 {
+    display: none;
+}
 
 /* special */
 .special {
