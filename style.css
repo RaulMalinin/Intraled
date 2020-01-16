@@ -454,11 +454,18 @@ main {
 
 
 /* sub-catalog1 hidden */
+.subcatalog {
+    display: none;
+    background-color: #ebf0f5;
+}
+
 .subcatalog1__wrap {
-    /*display: none;*/
     width: 100%;
     height: 262px;
-    background-color: #ebf0f5;
+}
+
+.subcatalog2__wrap {
+    background-color: green;
 }
 
 .subcatalog1__list {
@@ -487,13 +494,8 @@ main {
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
     border-top: 30px solid #ebf0f5;
-    border-top: 30px solid red;
     z-index: 100;
 }
-
-/*.subcatalog1-link:hover ~ .item-bottom-triangle { 
-    display: block !important;
-} */
 
 .subcatalog1-icon {
     margin-top: 50px;
@@ -503,7 +505,18 @@ main {
     background-color: #f7f7f7;
 }
 
-.subcatalog1-link {
+/*.subcatalog-link {
+    margin-top: 15px;
+    width: 150px;
+    height: 85px;
+    font-family: 'GothamPro-Medium';
+    font-size: 14px;
+    line-height: 20px;
+    color: #798186;
+    text-align: center;*/
+
+.subcatalog1-link, .subcatalog2-link, .subcatalog3-link,
+.subcatalog4-link, .subcatalog5-link, .subcatalog6-link {
     margin-top: 15px;
     width: 150px;
     height: 85px;
@@ -514,7 +527,8 @@ main {
     text-align: center;
 }
 
-.subcatalog1-link:hover {
+.subcatalog1-link:hover, .subcatalog2-link:hover, .subcatalog3-link:hover,
+.subcatalog4-link:hover, .subcatalog5-link:hover, .subcatalog6-link:hover {
     color: #161616;
 }
 
@@ -557,15 +571,9 @@ main {
     position: relative;
 }
 
-.details-1__wrap, .details-2__wrap, .details-3__wrap,
-.details-4__wrap, .details-5__wrap, .details-6__wrap {
+.details__wrap {
     display: none;
 }
-
-        .details-2__wrap {
-            background-color: red;
-            z-index: 100;
-        }
 
 .details {
     margin: 0 auto;
@@ -586,7 +594,6 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-content: space-between;
-
 }
 
 .sertifiсate-link {
@@ -636,7 +643,6 @@ main {
 .details-list li:nth-child(3) {
     margin-top: 15px;
 }
-
 
 .details-list__link {
     text-decoration: underline;
@@ -727,8 +733,7 @@ main {
     box-shadow: 2px 4px 2px 0px #000000;
 }
 
-.subcatalog-double-1, .subcatalog-double-2, .subcatalog-double-3,
-.subcatalog-double-4, .subcatalog-double-5, .subcatalog-double-6 {
+.subcatalog-double {
     display: none;
 }
 
